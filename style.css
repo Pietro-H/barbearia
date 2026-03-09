@@ -1,5 +1,5 @@
 body{
-    background: #15ff0000;
+    background: #0311c9;
 }
 
 .principal{
@@ -57,5 +57,7 @@ h1{
 .titulo-pricipal{
     padding-left: 20px;
 }
-
+.centralizado{
+    text-align: center;
+}
 
