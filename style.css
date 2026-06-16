@@ -1,126 +1,243 @@
-body{
-margin : 0px;
-padding: 0px;
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #13bcffa2;
 }
 
 header {
-background: #BBBBBB;
-padding: 20px 0;
+    background: #367486;
+    padding: 20px 0;
 }
 
 .caixa {
-position: relative;
-width: 940px;
-margin: 0 auto;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 nav {
-position: absolute;
-top: 110px;
-right: 0;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 nav li {
-display: inline;
-margin: 0 0 0 15px;
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 nav a {
-text-transform: uppercase;
-color: #000000;
-font-weight: bold;
-font-size: 22px;
-text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
 }
 
 nav a:hover {
-color: #C78C19;
-text-decoration: underline;
+    color: #0e3970;
+    text-decoration: underline;
 }
 
 main {
-width: 940px;
-margin: 0 auto;
-}
-
-.principal{
-background: #CCCCCC;
-padding: 5%;
-
-}
-
-.beneficios {
-background: #BBBBBB;
-padding: 20px;
-font-size:20px;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .beneficios ul {
-display: inline-block;
-vertical-align: top;
-width: 20%;
-margin-right: 15%;
-line-height : 2.0;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+    line-height: 2.0;
 }
 
-.imagembeneficios {
-width: 50%;
+.principal {
+    background: #0e5977;
+    padding: 30px;
+}
+
+
+.itens {
+    font-style: italic;
+    font-size: x-large;
+}
+
+.beneficios {
+    background: #127c8a;
+    padding: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 75%;
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    color: #155086;
+}
+
+.imgbanner {
+    width: 100%; 
+}
+
+h1 {
+    text-align: center;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.centralizado {
+    text-align: center;
 }
 
 .produtos {
-width: 940px;
-margin: 0 auto;
-padding: 50px 0;
+    width: 940px; 
+    margin: 0 auto;
+    padding: 50px 0;
 }
 
 .produtos li {
-display: inline-block;
-text-align: center;
-width: 30%;
-vertical-align: top;
-margin: 0 1.5%;
-padding: 30px 20px;
-box-sizing: border-box;
-border: 2px solid #000000;
-border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #0f723b;
+    border-radius: 10px;
 }
 
 .produtos li:hover {
-border-color: #C78C19;
+    border-color: #09ff00;
 }
 
 .produtos li:active {
-border-color: #088C19;
+    border-color: #156620;
 }
 
 .produtos li:hover h2 {
-font-size: 34px;
+    font-size: 34px;
 }
 
 .produtos h2 {
-font-size: 30px;
-font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .produto-descricao {
-font-size: 18px;
+    font-size: 18px;
 }
 
 .produto-preco {
-font-size: 22px;
-font-weight: bold;
-margin-top: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
-
 footer {
-text-align: center;
-background: url("bg.jpg");
-padding: 10px 0;
+    text-align: center;
+    background: url("");
+    padding: 10px;
 }
 
 .copyright {
-color: #FFFFFF;
-font-size: 13px;
-margin: 20px 0 0;
+    color:
+    #000000;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;     
+    margin: 40px auto;    
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+form h1 {
+    text-align: center;
+    background-color: rgb(29, 128, 62);
+    padding: 10px;        
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0;    
+}
+
+
+select, textarea {
+    display: block;
+    width: 100%;          
+    box-sizing: border-box; 
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+
+.input-texto {
+    width: 100%;         
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 40px;        
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+.enviar {
+    width: 50%;          
+    padding: 15px;
+    background: rgb(35, 160, 108);
+    color: rgb(0, 0, 0);        
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s all; 
+    cursor: pointer;
+    margin: 20px auto 0;  
+    display: block;
+}
+
+.enviar:hover {
+    background: rgb(9, 157, 202);
+    transform: scale(1.2);
+    font-style: italic;
+}
+
+.horarios {
+    width: 100%;
+    max-width: 500px;     
+    margin: 0 auto 40px;  
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+    border: solid rgb(61, 143, 116) 2px;
+    padding: 20px;        
+    box-sizing: border-box;
 }

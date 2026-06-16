@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contato</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,12 +15,52 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
+        <form>
+            <h1>FALE CONOSCO</h1>
+            <fieldset>
+                <p>Nome e sobrenome</p>
+                <input type="text" class="input-texto" required>
+
+                <p>Email</p>
+                <input type="email" class="input-texto" required placeholder="seuemail@dominio.com">
+
+                <p>Telefone</p>
+                <input type="tel" class="input-texto" required placeholder="(XX) XXXXX-XXXX">
+
+                <p>Mensagem</p>
+                <textarea cols="70" rows="10"> required</textarea>
+                <p></p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
+                <p><input type="radio" name="contato" value="Email"> Email </p>
+                <p><input type="radio" name="contato" value="Telefone"> Telefone </p>
+                <p><input type="radio" name="contato" value="whatsapp" checked> WhatsApp </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <p>
+                <input type="checkbox" checked>Gostaria de receber nossas novidades por email?
+            </p>
+
+            <button class="enviar">Enviar Formulário</button>
+
+        </form>
 
     </main>
     <footer>
